@@ -1,0 +1,60 @@
+.about-author{
+  padding-top:50px ;
+  color:$baseTextLight;
+  font-size:20px;
+  .photo_author{
+    width:400px;
+    border-radius:50%;
+    margin-right:20px;
+  }
+  .author-name{
+    font:italic bold 50px "Fira Sans", serif;
+    padding:20px 0 50px 0;
+  }
+  .contact-info{
+    p{
+      font-weight: bold;
+    }
+    a{
+      color:$baseButtonBackground;
+      cursor:pointer;
+    }
+    margin-bottom: 50px;
+  }
+  .author-info{
+     &-title{
+    background: $cardBackground;
+    margin-bottom: 20px;
+    padding:20px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius:20px;
+    font-size:25px;
+   }
+   &-bio{
+     padding:20px;
+     font:italic bold 20px "Fira Sans", serif;
+     background: rgba(62, 61, 61, 0.827);
+      border-radius:20px;
+       border-top:1px solid $baseTextLight;
+       border-bottom:1px solid $baseTextLight;
+   }
+   &-card{
+      padding:20px;
+      text-align: center;
+       background: rgba(62, 61, 61, 0.827);
+       margin-bottom: 20px;
+       border-radius:20px;
+       border-top:1px solid $baseTextLight;
+       border-bottom:1px solid $baseTextLight;
+       h4{
+         text-transform: uppercase;
+         font-weight: bold;
+       }
+       p{
+         font-size:20px;
+       }
+   }
+  }
+ 
+}

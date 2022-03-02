@@ -1,0 +1,99 @@
+.v-application a {
+  text-decoration: none;
+  color:$baseTextDark;
+}
+.btn-read-more{
+  .v-btn.v-btn--has-bg{
+    background:$baseButtonBackground;
+    color:$baseTextLight;
+    font-weight:900;
+  }
+}
+.btn-delete{
+  background:$baseButtonBackground!important;
+  color:$baseTextLight;
+  font-weight:900;}
+.post-label{
+  position: relative;
+  .v-btn.v-btn--has-bg{
+    background:$accentButtonsBackground;
+    color:$baseTextLight;
+    font-weight:800;
+  }
+}
+.add-label-btn{
+  &.theme--light.v-btn.v-btn--has-bg {
+     background:$accentButtonsBackground;
+  }
+    color:$baseTextLight;
+    font-weight:800;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.close-btn{
+  cursor: pointer;
+  border-radius: 5px;
+  padding:2px 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  color:$baseTextLight;
+  background:$baseButtonBackground;
+  position: absolute;
+  top:-10px;
+  right: -5px;
+  font-weight: 700;
+  
+}
+.aside{
+  border-right: 5px solid rgba(210, 206, 206, 0.649);
+  text-align: center;
+  &-title{
+    padding: 30px;
+    font-size: 30px;
+    color:$baseTextLight;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 1px $baseTextLight;;
+  }
+  &-topics{
+    color:$baseTextLight;
+    padding: 5px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+    &:hover{
+      color:$baseButtonBackground;
+      text-shadow: -1px -1px 1px $baseTextLight;
+    }
+  }
+}
+.active{
+  color:$baseButtonBackground;
+  text-shadow: -1px -1px 1px $baseTextLight;
+}
+.go-to-post-btn{
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+&.theme--light.v-btn.v-btn--disabled.v-btn--has-bg {
+  background-color: $baseButtonBackground !important;
+  color:$baseTextLight !important;
+  font-weight:800;
+  box-shadow: none;
+}
+&.ready-to-post{
+  background-color: $baseButtonBackground !important;
+  color:$baseTextLight !important;
+  font-weight:800;
+}
+}
+.btn-edit{
+  background-color: $accentButtonsBackground !important;
+  color:$baseTextLight !important;
+  font-weight:800;
+  margin-right: 20px;
+}
+.artical-labels-show h5{
+  font-weight:400;
+  color:gray;
+  padding-bottom:20px;
+}
